@@ -134,7 +134,10 @@ main h2,
 #second-nav {
     background-color: #fbfbfd;
 }
-
+.text-decoration-none learn-more rounded-pill text-center d-block pt a :hover{
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s ease; 
+}
 .swiper-slide,
 .phone-slide {
     padding: 10px 0;
