@@ -279,7 +279,7 @@
     }
 
     #introduction {
-        background: url('../img/apple-research__czkoifogwkeq_large.jpg') center/contain no-repeat;
+        background: url('../img/research_app.jpg') center/contain no-repeat;
     }
 
     .desktop-footer {
@@ -298,7 +298,7 @@
     }
 
     .desktop-footer li a:hover {
-        text-decoration: underline
+        text-decoration: underline;
     }
 
     #hr {

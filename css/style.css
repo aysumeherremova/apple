@@ -257,7 +257,7 @@ main h2,
 #power h3 {
     color: transparent;
     background-clip: text;
-    background-image: linear-gradient(90deg, #1e3791 0%, #2948b1 40%, #3153c6 55%, #385fda 60%);
+
 }
 
 #power h6 {
@@ -265,15 +265,21 @@ main h2,
 }
 
 #power-bottom {
-    background: url('../img/3dene.png') center/contain no-repeat;
+    background: url('../img/lovebg.jpeg') center/contain no-repeat;
 }
 
 #tour-bottom {
-    background: url('../img/guided_tour.jpg') center/cover no-repeat;
+    background: url('../img/applebg12.jpeg') center/cover no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
 }
 
 #tour h3 {
-    font-size: 18px;
+    font-size: 25px;
+    padding: auto;
     color: #000 !important;
 }
 
@@ -457,11 +463,11 @@ main h2,
 }
 
 #ios2-bottom {
-    background: url('../img/switching_to_iphone.jpg') 50% 50px/cover no-repeat;
+    background: url('../img/applebg.jpeg') 50% 50px/cover no-repeat;
 }
 
 #ios3-bottom {
-    background: url('../img/privacy.jpg') 50% -100px/cover no-repeat;
+    background: url('../img/appleuser.jpeg') 50% -100px/cover no-repeat;
 }
 
 .an-iphone1 {
@@ -469,7 +475,7 @@ main h2,
 }
 
 #get-more-apple {
-    background: url('../img/apple_one__cq8ojsqxitea_large.jpg') center/contain no-repeat;
+    background: url('../img/apple_one.jpg') center/contain no-repeat;
     width: 90px;
     height: 30px;
     padding-top: 50px;
@@ -485,7 +491,7 @@ main h2,
 }
 
 #get-more-icons {
-    background: url('../img/bundle__dlqe12erfzsm_large.jpg') center/contain no-repeat;
+    background: url('../img/applebg2.jpeg') center/contain no-repeat;
     height: 180px;
     margin-top: 30px;
 }
@@ -503,15 +509,15 @@ main h2,
     font-size: 16px;
 }
 
- /* Allah haqqı uje mədəm ağrıyır */
+/* Allah haqqı uje mədəm ağrıyır */
 
 #tv-logo i {
-    font-size: 16px !important;    
+    font-size: 16px !important;
     padding-bottom: 20px;
 }
 
 #arcade-bg {
-    background: url('../img/Screenshot\ 2024-03-04\ 184214.png') 100% 150px/contain no-repeat;
+    background: url('../img/Screenshot 2024-03-04 184214.png') 100% 150px/contain no-repeat;
 }
 
 .fitness-logo,
@@ -543,7 +549,7 @@ main h2,
 }
 
 #fitness-bg {
-    background: url('../img/update_promo_apple_fitness_iphone__762tbwjyo5ee_small.jpg') 50% -100px/cover no-repeat;
+    background: url('../img/applebg4.jpeg') 50% -100px/cover no-repeat;
 }
 
 #introduction {
@@ -556,7 +562,7 @@ main h2,
 }
 
 #news-bg {
-    background: url('../img/apple_news_plus_tile_update_x__crr8y9ssslqq_small.jpg') 50% -130px/cover no-repeat;
+    background: url('../img/news_bg.jpeg.jpg') 50% -130px/cover no-repeat;
 }
 
 #news-top h2 {
@@ -564,7 +570,7 @@ main h2,
 }
 
 #gift-bg {
-    background: url('../img/giftcard_tile__dartrujkircm_small_2x.jpg') center/cover no-repeat;
+    background: url('../img/applebg8.jpeg') center/cover no-repeat;
     height: 40vh;
 }
 
