@@ -134,7 +134,7 @@ main h2,
 #second-nav {
     background-color: #fbfbfd;
 }
-.text-decoration-none learn-more rounded-pill text-center d-block pt a :hover{
+.iphone_models a :hover{
     content: '';
     position: absolute;
     left: 0;

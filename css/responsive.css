@@ -313,7 +313,7 @@
     footer .container {
         width: 60%;
     }
-    .text-decoration-none learn-more rounded-pill text-center d-block pt a :hover{
+    .iphone_models a :hover{
         content: '';
         position: absolute;
         left: 0;
