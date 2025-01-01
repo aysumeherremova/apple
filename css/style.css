@@ -290,8 +290,16 @@ main h2,
     margin: auto;
 }
 
-#tour h3 {
-    font-size: 25px;
+#tour h3{
+    font-size: 35px;
+    padding: auto;
+    color: #000 !important;
+}
+#tour-to h2{
+    font-size: 58px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
     padding: auto;
     color: #000 !important;
 }
