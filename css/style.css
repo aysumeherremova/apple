@@ -134,10 +134,20 @@ main h2,
 #second-nav {
     background-color: #fbfbfd;
 }
-.text-decoration-none learn-more rounded-pill text-center d-block pt a:hover{
-    background-color: #f0f0f0; 
-    transition: background-color 0.3s ease; 
+
+.text-decoration-none learn-more rounded-pill text-center d-block pt a :hover {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
 }
+
 .swiper-slide,
 .phone-slide {
     padding: 10px 0;
@@ -539,7 +549,7 @@ main h2,
 
 #news a,
 #fitness a {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .fitness {
@@ -561,21 +571,19 @@ main h2,
 }
 
 .fitness-body {
-    background-color: #F9F9F9FF;
+    background-color: #fff;
 }
-
 #news-bg {
-    background: url('../img/news_bg.jpeg.jpg') 50% -130px/cover no-repeat;
+    background: url('../img/news_bg.jpeg') center center/cover no-repeat;
+    width: 500px;
+    height: 270px;
+    margin: 0 auto;
+    transform: translate(0, 5%);
 }
-
 #news-top h2 {
     padding: 20px 0;
 }
 
-#gift-bg {
-    background: url('../img/applebg8.jpeg') center/cover no-repeat;
-    height: 40vh;
-}
 
 
 #footer-first p,
