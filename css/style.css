@@ -246,11 +246,11 @@ main h2,
 .buy {
     background-color: #0071e3;
     color: #fff;
-    padding: 5px 15px;
+    padding: 5px 10px;
 }
 
 #newphoria-img {
-    background: url('../img/hero_iphone.jpg') center/cover no-repeat;
+    background: url('../img/newphoria.jpeg') center/cover no-repeat;
     height: 20vh;
 }
 
