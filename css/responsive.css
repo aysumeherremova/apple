@@ -1,0 +1,316 @@
+@media only screen and (min-width: 768px) {
+    .container{
+            width: 100%;
+            margin: 10 auto;
+    }
+    .sec-title {
+        padding: 50px 0;
+        font-size: 20px !important;
+    }
+
+    .learn-more:hover {
+        text-decoration: underline !important;
+    }
+
+    main h2 {
+        font-size: 45px !important;
+        font-weight: bold;
+    }
+
+    #logo,
+    #nav-icons,
+    .swiper,
+    #tour-top,
+    #footer-accardion {
+        display: none;
+    }
+
+    .phones,
+    #navbar,
+    .featured1,
+    .featured2,
+    #get-moree,
+    .tv-rows,
+    .fitness-rows,
+    .desktop-footer,
+    #footer-end-textss,
+    .introduction-card {
+        display: flex;
+    }
+
+    #navbar,
+    .featured1,
+    .featured2,
+    #get-moree,
+    .tv-rows,
+    .fitness-rows,
+    #new {
+        justify-content: center;
+    }
+
+    #desktop-nav-list {
+        display: initial;
+    }
+
+    #titanium-bottom,
+    #featured1-bg,
+    #get-more .container {
+        height: 70vh;
+    }
+
+    #phones,
+    #tour-bottom,
+    .an-iphone1 {
+        position: relative;
+    }
+
+    #titanium {
+        max-height: 100vh
+    }
+
+    #titanium-learn {
+        padding: 20px 0;
+    }
+
+    #newphoria h6,
+    .an-iphone-text p,
+    .an-iphone-text a {
+        font-size: 19px;
+    }
+
+    #newphoria-img {
+        height: 55vh;
+    }
+
+    #introduction {
+        height: 50vh;
+    }
+
+    #power-top,
+    #power-img {
+        display: inline-block
+    }
+
+    #power-bottom,
+    #tour-bottom {
+        height: 100vh;
+    }
+
+    #ios2-bottom,
+    #ios3-bottom {
+        margin-top: 70px;
+        height: 50vh;
+    }
+
+    .for-you-card {
+        width: 20%;
+    }
+
+    .save-card a,
+    .featured-card p,
+    .fitness a {
+        font-size: 19px;
+    }
+
+    #shop-iphone p,
+    #shop-iphone a,
+    #titanium p,
+    #newphoria p,
+    #power p {
+        font-size: 20px;
+    }
+
+    .colors-img,
+    .for-you-img,
+    .save-card h5,
+    .save-card p,
+    .featured-card p {
+        margin: auto;
+    }
+
+    #phones .container,
+    #ios-bottom,
+    #featured2-bg {
+        height: 80vh;
+    }
+
+    .featured1,
+    .featured2 {
+        align-items: center;
+    }
+
+    .featured-card p {
+        width: 60%;
+    }
+
+    #featured1-bg,
+    #featured2-bg,
+    #introduction {
+        width: 50%;
+    }
+
+    #power-top {
+        margin: 30vh auto;
+    }
+
+    #save-phone .card,
+    #new {
+        min-height: 70vh;
+    }
+
+    #tv-logo i {
+        font-size: 45px !important;
+    }
+
+    .tv-body img {
+        width: 120px;
+        height: 100%;
+    }
+
+    #desktop-nav-list li {
+        display: inline-block;
+        margin-left: 2vw;
+    }
+
+    #desktop-nav-list li a {
+        color: #000000cc;
+        font-weight: 600;
+    }
+
+    #shop-iphone p {
+        color: #1d1d1f;
+        padding-top: 20px;
+    }
+
+    #titanium {
+        padding-top: 30px !important;
+    }
+
+    #titanium span {
+        padding-top: 30px !important;
+        display: block;
+    }
+
+    #titanium-bottom {
+        transform: rotate(-90deg);
+        margin-top: -10%;
+    }
+
+    #tour-bottom {
+        margin: 20px;
+        border-radius: 30px;
+    }
+
+    #tour-texts {
+        position: absolute;
+        display: initial;
+        top: 40%;
+        left: 15%;
+        text-align: start;
+    }
+
+    #tour-texts h3 {
+        color: #fff !important;
+    }
+
+    #tour-texts a {
+        padding: 10px;
+    }
+
+    .for-you-img {
+        width: 180px;
+        height: 250px;
+    }
+
+    .save-card h5 {
+        font-weight: bold;
+    }
+
+    #phones-bg {
+        background-position: 50% 200px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #phones-text {
+        width: 50%;
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        margin: auto;
+    }
+
+    #featured2-bg {
+        background-size: cover;
+        order: -1;
+    }
+
+    #featured3-bg {
+        height: 60vh;
+        background-position: center;
+    }
+
+    .an-iphone-text {
+        position: absolute;
+        left: 40%;
+    }
+
+    #get-moree,
+    #new {
+        align-items: center;
+    }
+
+    #get-more-icons {
+        order: -1;
+        height: 60%;
+        width: 60%;
+        margin: 20vh auto;
+    }
+
+    #get-more-apple {
+        height: 40%;
+        width: 40%;
+    }
+
+    .tv-rows,
+    .fitness-rows {
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    #introduction {
+        background: url('../img/apple-research__czkoifogwkeq_large.jpg') center/contain no-repeat;
+    }
+
+    .desktop-footer {
+        padding: 20px 0;
+    }
+
+    #new {
+        justify-content: space-around;
+    }
+
+    .desktop-footer ul li a {
+        font-size: 11px;
+        font-weight: 400;
+        color: #000000b8;
+        text-decoration: none;
+    }
+
+    .desktop-footer li a:hover {
+        text-decoration: underline
+    }
+
+    #hr {
+        display: block;
+    }
+
+    #footer-end-textss,
+    .desktop-footer {
+        justify-content: space-between;
+    }
+
+    footer .container {
+        width: 60%;
+    }
+}
