@@ -530,7 +530,11 @@ main h2,
 }
 
 #arcade-bg {
-    background: url('../img/Screenshot 2024-03-04 184214.png') 100% 150px/contain no-repeat;
+    background: url('../img/arcade_bg.png');
+    width: 500px;
+    height: 270px;
+    margin: 0 auto;
+    transform: translate(0, 5%);
 }
 
 .fitness-logo,
@@ -563,6 +567,10 @@ main h2,
 
 #fitness-bg {
     background: url('../img/applebg4.jpeg') 50% -100px/cover no-repeat;
+    width: 500px;
+    height: 270px;
+    margin: 0 auto;
+    transform: translate(0, 5%);
 }
 
 #introduction {
