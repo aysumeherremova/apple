@@ -573,6 +573,7 @@ main h2,
 .fitness-body {
     background-color: #fff;
 }
+
 #news-bg {
     background: url('../img/news_bg.jpeg') center center/cover no-repeat;
     width: 500px;
@@ -580,11 +581,18 @@ main h2,
     margin: 0 auto;
     transform: translate(0, 5%);
 }
+
 #news-top h2 {
     padding: 20px 0;
 }
 
-
+#gift-bg {
+    background: url('../img/gift_bg.jpg') center/cover no-repeat;
+    width: 500px;
+    height: 270px;
+    margin: 0 auto;
+    transform: translate(0, 5%);
+}
 
 #footer-first p,
 #footer-first li {
