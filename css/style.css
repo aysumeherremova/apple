@@ -58,6 +58,13 @@ main h2,
     font-weight: 700;
 }
 
+#accerssories h2{
+    font-size: 180px;
+    width: 300px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+}
 #titanium span,
 #newphoria span,
 .for-you-card span {
@@ -283,6 +290,7 @@ main h2,
 
 #tour-bottom {
     background: url('../img/applebg12.jpeg') center/cover no-repeat;
+    border-radius: 30px;
 }
 
 .container {
@@ -297,7 +305,8 @@ main h2,
 }
 
 #tour-to h2 {
-    font-size: 58px;
+    font: 500 1.8em / 0.8 Arial;
+    margin: 20px 0;
     line-height: 1.125;
     font-weight: 600;
     letter-spacing: .004em;
@@ -419,11 +428,12 @@ main h2,
 }
 
 #card2-center,
-#featured1-bg,
-#featured3-bg {
+#featured1-bg{
     height: 20vh;
 }
-
+#featured3-bg{
+    height: 15vh;
+}
 .save-card a {
     padding: 20px 0;
 }
@@ -459,13 +469,17 @@ main h2,
 }
 
 #featured3-bg {
-    background: url('../img/feature3.jpg') 100% -1px/contain no-repeat;
+    background: url('../img/applebg9.jpeg') 70%/contain no-repeat;
 }
-
+.texxxt{
+    padding: 20px 0;
+}
 #featured2-bg {
     background: url('../img/featured2.jpg') center/cover no-repeat;
 }
-
+.featured-texts{
+    width: 90%;
+}
 #shop-row .card {
     background-color: transparent;
 }
