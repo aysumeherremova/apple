@@ -30,7 +30,8 @@ main h2,
 }
 
 .sec-title h2 {
-    font-size: 50px;
+    display: block;
+    font-size: 158px !important;
 }
 
 #power-bottom,
@@ -48,8 +49,7 @@ main h2,
 .colors-img,
 .details2-top,
 .detail-top,
-#get-more-apple,
-#get-more-icons {
+#get-more-apple{
     margin: auto;
 }
 
@@ -525,6 +525,7 @@ main h2,
     width: 90px;
     height: 30px;
     padding-top: 50px;
+    transform: scale(1.155);
 }
 
 #get-more h2 {
@@ -538,8 +539,14 @@ main h2,
 
 #get-more-icons {
     background: url('../img/applebg2.jpeg') center/contain no-repeat;
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.6);
+}
+#get-more{
+    margin: 0 2px;
+    padding: 0;
 }
 
 .tv-body img {
