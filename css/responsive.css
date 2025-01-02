@@ -17,6 +17,10 @@
         font-weight: bold;
     }
 
+    .sec-title h2 {
+        font-size: 3em;
+    }
+    
     #logo,
     #nav-icons,
     .swiper,
