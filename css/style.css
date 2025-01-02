@@ -664,10 +664,17 @@ main h2,
 
 #auto-slider {
     background: url('../img/tv.png') center/cover;
+    gap:20px;
+    margin: 10px;
+    padding: 50px 70px;
 }
 
 #slider-music {
     background: #000 url('../img/music_bg.jpg') center/cover no-repeat;
+    gap:20px;
+    margin: 10px;
+    padding: 50px 70px;
+    height: 40%;
 }
 
 .accordion-button:not(.collapsed) {
