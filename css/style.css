@@ -49,7 +49,7 @@ main h2,
 .colors-img,
 .details2-top,
 .detail-top,
-#get-more-apple{
+#get-more-apple {
     margin: auto;
 }
 
@@ -108,8 +108,9 @@ main h2,
 
 #featured2-bg,
 #ios2-bottom,
+#ios3-bottom,
 #slider-music {
-    height: 40vh
+    height: 40vh;
 }
 
 #save-phone h2,
@@ -135,7 +136,7 @@ main h2,
 
 #nav-icons svg {
     height: 50px;
-   max-width: 20px;
+    max-width: 20px;
     color: #303030FF;
 }
 
@@ -146,7 +147,8 @@ main h2,
 #second-nav {
     background-color: #fbfbfd;
 }
-#for-you-cards{
+
+#for-you-cards {
     gap: 20px;
 }
 
@@ -155,7 +157,7 @@ main h2,
     position: absolute;
     left: 0;
     bottom: -5px;
-   max-width: 100%;
+    max-width: 100%;
     height: 3px;
     background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
     transform: scaleX(0);
@@ -180,6 +182,7 @@ main h2,
     font-size: 10px;
     color: #bf4800;
 }
+
 .swiper-slide img,
 .phone-slide img {
     height: 54px;
@@ -307,13 +310,13 @@ main h2,
 
 .colors-img {
     max-width: 91px;
-   max-height: 45px;
+    max-height: 45px;
 }
 
 #for-you-cards {
     gap: 10px;
     flex-wrap: wrap;
-   max-width: 100%;
+    max-width: 100%;
 }
 
 #for-you-cards h5 {
@@ -484,11 +487,12 @@ main h2,
 }
 
 #ios2-bottom {
-    background: url('../img/applebg.jpeg') 50% 50px/cover no-repeat;
+    background: url('../img/applebg.jpeg') center/cover no-repeat;
+    max-height: 30px;
 }
 
 #ios3-bottom {
-    background: url('../img/appleuser.jpeg') 50% -100px/cover no-repeat;
+    background: url('../img/appleuser.jpeg') center/cover no-repeat;
 }
 
 .an-iphone1 {
@@ -520,7 +524,8 @@ main h2,
     object-fit: cover;
     transform: scale(1.6);
 }
-#get-more{
+
+#get-more {
     margin: 0 2px;
     padding: 0;
 }
@@ -584,7 +589,7 @@ main h2,
 #fitness-bg {
     background: url('../img/applebg4.jpeg') 50% -100px/cover no-repeat;
     max-width: 500px;
-   max-height: 270px;
+    max-height: 270px;
     margin: 0 auto;
     transform: translate(0, 5%);
 }
@@ -630,7 +635,7 @@ main h2,
 }
 
 #footer-logo-sec svg {
-   max-width: 48px;
+    max-width: 48px;
     height: 48px;
 }
 
@@ -640,14 +645,14 @@ main h2,
 
 #auto-slider {
     background: url('../img/tv.png') center/cover;
-    gap:20px;
+    gap: 20px;
     margin: 10px;
     padding: 50px 70px;
 }
 
 #slider-music {
     background: #000 url('../img/music_bg.jpg') center/cover no-repeat;
-    gap:20px;
+    gap: 20px;
     margin: 10px;
     padding: 50px 70px;
     height: 40%;

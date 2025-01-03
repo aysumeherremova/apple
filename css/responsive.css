@@ -2,6 +2,7 @@
     .container {
         width: 100%;
         margin: 10 auto;
+        overflow-x: hidden;
     }
 
     .sec-title {
@@ -347,10 +348,9 @@ footer .container {
     transform-origin: left;
     transition: transform 0.3s ease;
 }
-}
-
 #accerssories h2 {
     font-size: 3em;
+}
 }
 
 @media (max-width: 600px) {
@@ -360,6 +360,12 @@ footer .container {
         overflow: auto;
         scrollbar-width: none;
     }
+    .container {
+        width: 100%;
+        margin: 10 auto;
+        overflow-x: hidden;
+    }
+
 }
 
 @media only screen and (min-width: 369px) {
@@ -367,13 +373,14 @@ footer .container {
         overflow: auto;
         scrollbar-width: none;
     }
-
-    #gift-bg {
-        max-width: 60px;
-        max-height: 70px;
-        margin: 0 auto;
-        transform: translate(0, 5%);
+    .container {
+        width: 100%;
+        margin: 10 auto;
+        overflow-x: hidden;
     }
+
+
+ 
 }
 
 @media only screen and (min-width: 290px) {
@@ -381,14 +388,15 @@ footer .container {
         height: 100%;
         overflow: auto;
         scrollbar-width: none;
+        overflow-x: hidden;
+    }
+    .container {
+        width: 100%;
+        margin: 10 auto;
+        overflow-x: hidden;
     }
 
-    #gift-bg {
-        max-width: 5px;
-        max-height: 5px;
-        margin: 0 auto;
-        transform: translate(0, 5%);
-    }
+
 }
 
 @media only screen and (max-width: 270px) {
@@ -401,22 +409,17 @@ footer .container {
 
     .container {
         width: 100%;
-        margin: 5px auto;
-        padding: 0;
+        margin: 10 auto;
+        overflow-x: hidden;
     }
+
 }
 
 @media only screen and (max-width: 1140px) {
-
-    .phone-slide {
-        height: 100%;
-        overflow: auto;
-        scrollbar-width: none;
-    }
-
     .container {
         width: 100%;
-        margin: 5px auto;
-        padding: 0;
+        margin: 10 auto;
+        overflow-x: hidden;
     }
+
 }
